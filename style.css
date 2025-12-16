@@ -37,13 +37,11 @@ img {
 
 .hotspot {
     position: absolute;
-    /* Use semi-transparent red for visibility during development/setup */
     background-color: rgba(255, 0, 0, 0.3);
     cursor: pointer;
 }
 
 #doorHotspot {
-    /* Approximate values - User to adjust */
     top: 33%;
     left: 39%;
     width: 22%;
@@ -51,7 +49,6 @@ img {
 }
 
 #bedHotspot {
-    /* Approximate values - User to adjust */
     top: 45%;
     left: 25%;
     width: 44%;
