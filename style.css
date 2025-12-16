@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+#warning {
+    display: none;
+}
+
+body {
+    font-family: "Pixelify Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    /* Dark background fits the theme */
+    color: white;
+    /* Ensure text is visible on dark background */
+}
+
+.Center {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.hotspot {
+    position: absolute;
+    /* Use semi-transparent red for visibility during development/setup */
+    background-color: rgba(255, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+#doorHotspot {
+    /* Approximate values - User to adjust */
+    top: 33%;
+    left: 39%;
+    width: 22%;
+    height: 45%;
+}
+
+#bedHotspot {
+    /* Approximate values - User to adjust */
+    top: 45%;
+    left: 25%;
+    width: 44%;
+    height: 35%;
+}
+
+.nav-arrow {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    border-radius: 50%;
+    /* Simple arrow indicator */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-arrow::after {
+    content: '<';
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+
+.finale-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+#toBeContinued h1 {
+    font-size: 4rem;
+}

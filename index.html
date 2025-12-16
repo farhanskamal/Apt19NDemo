@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartment 19</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div id="startContainer" class="Center">
+        <h1 id="title">Apartment 19</h1>
+        <button id="startBtn">Start</button>
+    </div>
+    <div id="warning" class="Center">
+        <h1>WARNING</h1>
+        <p id="warningI">This game involves themes of loneliness</p>
+        <p>This game is also a Narrative Demo for Apartment 19 to experiement with storylines and dialogue.</p>
+        <button id="cS1">Continue</button>
+    </div>
+    <div id="cutscene" class="Center" style="display:none;">
+        <img src="img/cutscene/DoorOpeningScene.gif" alt="Opening Door">
+    </div>
+    <div id="livingRoom" class="Center" style="display:none;">
+        <img src="img/background/livingroom.png" alt="Living Room">
+        <div id="leftNavBtn" class="nav-arrow"></div>
+    </div>
+
+    <div id="outsideBedroom" class="Center" style="display:none;">
+        <div class="image-container">
+            <img src="img/background/OutSideBedRoom.png" alt="Outside Bedroom">
+            <div id="doorHotspot" class="hotspot"></div>
+        </div>
+    </div>
+
+    <div id="cutsceneBedroom" class="Center" style="display:none;">
+        <img src="img/cutscene/GoingintoBedroom.gif" alt="Entering Bedroom">
+    </div>
+
+    <div id="bedroom" class="Center" style="display:none;">
+        <div class="image-container">
+            <img src="img/background/bedroom.png" alt="Bedroom">
+            <div id="bedHotspot" class="hotspot"></div>
+        </div>
+    </div>
+
+    <div id="cutsceneBed" class="Center" style="display:none;">
+        <img src="img/cutscene/GetInBedAnimation.gif" alt="Getting in Bed">
+    </div>
+
+    <div id="ceiling" class="Center" style="display:none;">
+        <div class="image-container">
+            <img src="img/background/BedRoomCeeling.png" alt="Ceiling">
+            <div id="finaleText" class="finale-text" style="display:none;">Goodnight me</div>
+        </div>
+    </div>
+
+    <div id="toBeContinued" class="Center" style="display:none;">
+        <h1>To be Continued</h1>
+    </div>
+    <div id="out" class="Center" style="display:none;">
+        <img src="img/background/Outside.png" alt="Outside">
+    </div>
+    <div id="bedroom" class="Center" style="display:none;">
+        <img src="img/background/" alt="Bedroom">
+    </div>
+</body>
+
+</html>
